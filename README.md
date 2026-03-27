@@ -1,2 +1,9 @@
 # minio-datalake
-Code for creating a demo datalake in MinIO
+
+## Setup
+
+* Create a virtual env with Python 3.11 (higher is not tested)
+* Install `requirements.txt`
+* Run MinIO `docker-compose.yml` with `docker-compose up -d`
+* Run DataHub `install.ipynb` script
+* Run demo scripts for DataHub and MinIO to generate data
